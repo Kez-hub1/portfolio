@@ -26,8 +26,10 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
 .hero-content {
   width: 80%;
+  position: relative;
 }
 .boi {
   width: 60%;
@@ -44,4 +46,106 @@ nav {
   font-weight: 400;
   color: white;
   font-size: 60px;
+}
+
+.typewriter {
+  animation: flowing 3s steps(15) infinite;
+  border-right: 1px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes flowing {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 58ch;
+  }
+  100% {
+    width: 0ch;
+  }
+}
+
+.intro {
+  background-color: white;
+  color: #0779e4;
+  position: absolute;
+  padding: 4px;
+  top: -30px;
+  left: 10px;
+  text-align: center;
+  width: 70px;
+  white-space: nowrap;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.intro::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  bottom: -4px;
+  left: 25px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.white {
+  width: 25px;
+}
+
+.blue {
+  width: 25px;
+}
+
+.hire {
+  display: flex;
+  background-color: #0779e4;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.view {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #0779e4;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire1{
+  display: flex;
+  gap: 20px;
+}
+.white{
+  margin-left: 8px;
+}
+.blue {
+  margin-left: 8px;
+}
+
+.socials {
+  margin-top: 40px;
+  font-size: 12px;
+  color: white;
+  gap: 40px;
+}
+
+.Lorem {
+  color: white;
+  
 }
