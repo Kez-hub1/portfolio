@@ -39,3 +39,9 @@ nav {
 .text-bold {
   font-weight: bold;
 }
+
+.hero-content h1 {
+  font-weight: 400;
+  color: white;
+  font-size: 60px;
+}
